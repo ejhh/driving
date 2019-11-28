@@ -5,4 +5,9 @@ if country == 'Taiwan':
 	if age >= 18:
 		print('you can get the driver licence')
 	else:
-		print('you can not get the licence')	
+		print('you can not get the licence')
+elif country == 'USA':
+	if age >= 16:
+		print('you can get the driver licence')
+	else:	
+		print('you can not get the licence')
